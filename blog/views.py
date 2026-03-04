@@ -1,4 +1,5 @@
 
+
 from django.shortcuts import get_object_or_404, render, redirect
 from django.views.generic import View
 from .forms import PostCreateForm

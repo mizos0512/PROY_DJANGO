@@ -34,7 +34,7 @@ class BlogCreateView(View):
         p, created = Post.objects.get_or_create(title=title, content=content)
         p.save()
       return redirect('blog:home')
-    titulo='Juan'   
+      
     context ={
          
       }    

@@ -9,9 +9,3 @@ class Post(models.Model):
       return self.title
 
 
-class Post1(models.Model):
-    title = models.CharField(max_length=250)
-    content = models.TextField()
-
-    def __str__(self):
-      return self.title

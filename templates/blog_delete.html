@@ -1,0 +1,9 @@
+¿Estás Seguro(a)?
+<form method="POST">
+ {% csrf_token %}
+  {{form}}
+ <br>
+  {{Formu.content}}
+  <button type="submit"> Eliminar</button>
+</form>
+

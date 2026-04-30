@@ -2,4 +2,5 @@
 <br>
 {{ post.content }}
 <br>
-<a href="{% url 'blog:update' post.id %}">Modificar</a>
+<a href="{% url 'blog:update' post.id %}">Modificar</a><br>
+<a href="{% url 'blog:delete' post.id %}">Eliminar</a>
